@@ -93,36 +93,83 @@ h2{
     font-weight: 500;
 }
 
-.inputs {
-    margin-bottom: 20px;
-    width: 100%;
-    max-width: 400px; 
+.inputs{
+    position: relative;
 }
 
-.inputs h2 {
-    font-size: 16px;
-    font-weight: bold;
-    margin: 0 0 5px 0;
-    color: hsl(200, 24%, 40%);
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-with-icon {
+    position: relative;
 }
 
 .input-addon {
     font-size: 18px;
-    color: #000;
+    color: hsl(202, 55%, 16%);
     position: absolute;
-    margin: 10px 0 0 10px;
+    background-color: hsl(202, 86%, 94%);
+    padding: 13px;
+    border-top: 1px solid hsl(200, 26%, 54%);
+    border-left: 1px solid hsl(200, 26%, 54%);
+    border-bottom: 1px solid hsl(200, 26%, 54%);
+}
+
+.big-input, .small-input {
+    padding: 12px 15px 16px 55px;
+    font-size: 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    transition: all 0.2s;
+    border: 1px solid hsl(200, 26%, 54%);
 }
 
 .big-input {
-    width: 100%;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    height: 40px;
+    width: 20rem;
 }
 
-.big-input:focus {
-    outline: none;
-    border-color: #666;
+.small-input {
+    width: 7.05rem;
+}
+
+.secondary-inputs {
+    margin-top: 10px;
+}
+
+.input-group {
+    display: flex;
+    gap: 20px;
+}
+
+.input-pair {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input h2 {
+    margin-bottom: 5px;
+    font-size: 1rem; 
+}
+
+.buttons{
+    display: flex;
+    margin: 1rem;
+}
+
+.relative-buttons{
+    margin: 2rem 2rem 2rem 0;
+}
+
+.calculate-button{
+    width: 180px;
+    height: 30px;
+}
+
+.calculate-button img{
+    margin-top: 4.5rem;
 }

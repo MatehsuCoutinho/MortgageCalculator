@@ -18,23 +18,43 @@
 
             <div class="inputs">
                 <h2>Mortgage Amount</h2>
-                <span class="input-addon">£</span>
-                <input class="big-input" type="text" name="Mortgage Amount" id="Mortgage Amount">
+                <div class="input-with-icon">
+                    <span class="input-addon">€</span>
+                    <input class="big-input" type="text" name="Mortgage Amount" id="Mortgage Amount">
+                </div>
 
-                <h2>Mortgage Term</h2>
-                <input class="small-input" type="text" name="Mortgage Amount" id="Mortgage Amount">
-
-                <h2>Interest Rate</h2>
-                <input class="small-input" type="text" name="Mortgage Amount" id="Mortgage Amount">
+                <div class="secondary-inputs">
+                    <div class="input-group">
+                        <div class="input-pair">
+                            <h2>Mortgage Term</h2>
+                            <div class="input-with-icon">
+                                <span class="input-addon">yrs</span>
+                                <input class="small-input" type="text" name="Mortgage Term" id="Mortgage Term">
+                            </div>
+                        </div>
+                        <div class="input-pair">
+                            <h2>Interest Rate</h2>
+                            <div class="input-with-icon">
+                                <span class="input-addon">%</span>
+                                <input class="small-input" type="text" name="Interest Rate" id="Interest Rate">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="buttons">
-                <h2>Mortgage Type</h2>
-                <input type="checkbox" name="Repayment" id="Repayment">
-                <p>Repayment</p>
-                <input type="checkbox" name="Interest Only" id="Interest Only">
-                <p>Interest Only</p>
-                <button type="submit">Calculate Repayments</button>
+                <div class="relative-buttons">
+                    <h2>Mortgage Type</h2>
+                    <input type="checkbox" name="Repayment" id="Repayment">
+                    <p>Repayment</p>
+                    <input type="checkbox" name="Interest Only" id="Interest Only">
+                    <p>Interest Only</p>
+                </div>
+                <div class="calculate-button">
+                    <img src="/assets/icon-calculator.svg" alt="">
+                    <button class="submit-button" type="submit">Calculate Repayments</button>
+                </div>
             </div>
         </div>
         <div class="results">
