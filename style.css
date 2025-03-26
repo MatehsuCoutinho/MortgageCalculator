@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: hsl(202, 86%, 94%);
+}
+
+h2{
+    font-size: 12px;
+    color: hsl(200, 26%, 54%);
+}
+
+.main-content {
+    position: relative;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0.5rem auto;
+}
+
+.results {
+    background-color: hsl(202, 55%, 16%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2.5rem;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    z-index: 2;
+    height: 500px;
+    width: 390px;
+}
+
+.results img {
+    margin-top: 6.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.results h1 {
+    margin: 0.8rem 1rem;
+    font-size: 18px;
+}
+
+.results p {
+    margin-bottom: 6.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color:rgba(255, 255, 255, 0.5);
+}
+
+.calculator {
+    background-color: white;
+    color: hsl(202, 55%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2.5rem;
+    height: 500px;
+    width: 390px;
+}
+
+.title{
+    display: flex;
+    margin: 2.3rem 0;
+    gap: 8rem;
+}
+
+.calculator h1 {
+    font-size: 20px;
+}
+
+.title a{
+    color: hsl(200, 24%, 40%);
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.inputs h2{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.inputs {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px; 
+}
+
+.inputs h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    color: hsl(200, 24%, 40%);
+}
+
+.input-addon {
+    font-size: 18px;
+    color: #000;
+    position: absolute;
+    margin: 10px 0 0 10px;
+}
+
+.big-input {
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+.big-input:focus {
+    outline: none;
+    border-color: #666;
+}
