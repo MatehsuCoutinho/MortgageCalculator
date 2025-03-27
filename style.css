@@ -211,3 +211,64 @@ h2{
     width: 16px;
     height: 16px;
 }
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        max-width: 100%;
+        border-radius: 0;
+    }
+
+    .calculator, .results {
+        width: 100%;
+        height: auto;
+        padding: 1.5rem;
+    }
+
+    .title {
+        margin: 1rem 0;
+    }
+
+    .input-group {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .results {
+        order: -1;
+        border-radius: 0 0 25px 25px;
+    }
+
+    .calculator {
+        border-radius: 25px 25px 0 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        box-shadow: none;
+    }
+
+    .calculator, .results {
+        padding: 1rem;
+    }
+
+    .big-input, .small-input {
+        padding: 10px 12px 10px 45px;
+        font-size: 14px;
+    }
+
+    .input-addon {
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    .calculate-button {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+
+    .radio-option {
+        padding: 8px;
+    }
+}
