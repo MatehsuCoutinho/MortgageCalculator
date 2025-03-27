@@ -13,18 +13,6 @@ Este projeto é uma calculadora de pagamento de hipoteca que permite aos usuári
 
 - HTML, CSS e JavaScript
 
-## 📂 Estrutura do Projeto
-
-```
-📁 mortgage-calculator
-│── 📂 src
-│   ├── index.html
-│   ├── styles.css
-│   ├── script.js
-    ├──📄 README.md
-
-```
-
 ## Como Executar o Projeto
 
 1. Clone este repositório:
