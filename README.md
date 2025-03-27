@@ -17,7 +17,7 @@ Este projeto é uma calculadora de pagamento de hipoteca que permite aos usuári
 
 1. Clone este repositório:
    ```sh
-   git clone https://github.com/seu-usuario/mortgage-calculator.git
+   git clone https://github.com/MatehsuCoutinho/MortgageCalculator.git
    ```
 2. Acesse a pasta do projeto:
    ```sh
